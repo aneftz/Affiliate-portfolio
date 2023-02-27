@@ -539,5 +539,11 @@ img {
         .btn {
             bottom: 185px;
         }
+
+
+        .skills_box {
+            flex-flow: column;
+            align-items: center;
+        }
     }
 }

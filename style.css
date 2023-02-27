@@ -118,7 +118,8 @@ ul li:hover {
 }
 
 .img {
-
+    display: none;
+    overflow: hidden;
     background-image: url(./sources/MG.Main-picture.jpeg);
     background-position: 65% 34%;
     background-repeat: no-repeat;
@@ -130,6 +131,17 @@ ul li:hover {
     height: 25em;
     overflow: hidden;
     */
+}
+
+.video_wrap {
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+video {
+    margin-top: -100px;
 }
 
 /*
@@ -164,6 +176,7 @@ img {
 .skills_box {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 7em;
 }
 
 .skills_item {
@@ -212,6 +225,35 @@ img {
     line-height: 22px;
 }
 
+/* Portfolio section */
+
+.portfolio_p {
+    text-align: center;
+    color: #070707;
+    text-decoration: underline;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+
+.portfolio_box {
+    overflow: hidden;
+}
+.portfolio_box img {
+    display: block;
+    max-width: 100%; /* Делает картинку по ширине контейнера */
+    height: auto;
+}
+
+/*  Footer */
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+
 @media screen and (max-width:900px) {
 
     .skills_box {
@@ -219,6 +261,13 @@ img {
         justify-content: space-evenly;
     }
 
+    .video_wrap {
+        display: none;
+    }
+
+    .img {
+        display: block;
+    }
 }
 
 @media screen and (max-width:600px) {

@@ -229,9 +229,12 @@ img {
 
 .portfolio {
     background-color: #F6F6F6;
-    padding-top: 100px;
+    
 }
 
+.portfolio_h {
+    padding-top: 100px;
+}
 .portfolio_p {
     text-align: center;
     color: #070707;

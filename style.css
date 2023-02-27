@@ -227,6 +227,10 @@ img {
 
 /* Portfolio section */
 
+.portfolio {
+    background-color: #F6F6F6;
+}
+
 .portfolio_p {
     text-align: center;
     color: #070707;
@@ -241,18 +245,46 @@ img {
 .portfolio_box {
     overflow: hidden;
 }
+
 .portfolio_box img {
     display: block;
-    max-width: 100%; /* Делает картинку по ширине контейнера */
+    max-width: 100%;
+    /* Делает картинку по ширине контейнера */
     height: auto;
 }
 
 /*  Footer */
-.btn {
+.btn1 {
     display: flex;
     justify-content: center;
 }
 
+.btn1 button {
+    background-color: black;
+    color: white;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    width: 180.5px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+}
+
+.comments {
+    padding-top: 45px;
+    padding-bottom: 120px;
+}
 
 @media screen and (max-width:900px) {
 
@@ -404,6 +436,7 @@ img {
     /* button Eng/Rus */
 
     .reating-arkows {
+        display: block;
         position: relative;
     }
 

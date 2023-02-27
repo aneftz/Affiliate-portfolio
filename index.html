@@ -1,15 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <title>UI/UX designer</title>
 </head>
+
 <body>
     <div class="wrapper">
-        
+        <div class="container">
+            <!-- navigation-->
+            <nav class="navbar" role="navigation">
+
+                <div class="menuToggle">
+
+                    <input type="checkbox" id="hamburger">
+
+                    <ul class="menu">
+                        <li class="menu_link"><a href="" class="">Home</a></li>
+                        <li class="menu_link"><a href="" class="">About me</a></li>
+                        <li class="menu_link"><a href="" class="">Skills</a></li>
+                        <li class="menu_link"><a href="" class="">Portfolio</a></li>
+                        <li class="menu_link"><a href="" class="">Contacts</a></li>
+                        <li class="btn">
+                            <div class="reating-arkows">
+                                <input id="a" type="checkbox">
+                                <label for="a">
+                                    <div class="trianglesusing" data-checked="Eng" data-unchecked="Rus"></div>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+
+
+
+                    <div class="hamburgerMenu">
+                        <label for="hamburger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </label>
+                    </div>
+
+
+                </div>
+
+                <hr>
+                <div class="text">
+                    <div class="h1">
+                        <h1>
+                            Michael <br> Green
+                        </h1>
+                    </div>
+                    <div class="p">
+                        <p>Affilate marketing <br>
+                            28 years old, Warsaw</p>
+                    </div>
+
+
+                    <div class="lang_desktop">
+                        <input type="checkbox" id="lang_desktop">
+                        <label for="lang_desktop">
+                            <h3>
+                                Eng
+                            </h3>
+                            <div class="line_desktop"></div>
+                            <h3>
+                                Rus
+                            </h3>
+                        </label>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="img">
+                <!-- <img src="./sources/MG.Main-picture.jpeg" alt=""> -->
+            </div>
+
+            <div class="about">
+                <h1 class="about_h">About me</h1>
+                <div class="about_describe">
+                    <p class="about_p1">Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                        I'm interested in design and everything connected with it.</p>
+                    <p class="about_p2">I'm studying at courses "Web and mobile design<br>
+                        interfaces" in IT-Academy.</p>
+                    <p class="about_p3">Ready to implement excellent projects<br>
+                        with wonderful people.</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="skills_box">
+                    <div class="skills_item">
+                        <div id="lottie_test"></div>
+                        <h3>Creativity <br> Skill</h3>
+                        <div class="stars">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star-4.svg" alt="skill_rating">
+                        </div>
+                    </div>
+                    <div class="skills_item">
+                        <div id="lottie_test1"></div>
+                        <h3>Creativity <br> Skill</h3>
+                        <div class="stars">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star-4.svg" alt="skill_rating">
+                        </div>
+                    </div>
+                    <div class="skills_item">
+                        <div id="lottie_test2"></div>
+                        <h3>Creativity <br> Skill</h3>
+                        <div class="stars">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star-4.svg" alt="skill_rating">
+                        </div>
+                    </div>
+                    <div class="skills_item">
+                        <div id="lottie_test3"></div>
+                        <h3>Creativity <br> Skill</h3>
+                        <div class="stars">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star.svg" alt="skill_rating">
+                            <img src="./sources/Star-4.svg" alt="skill_rating">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="lottie.js"></script>
+            <script src="index.js"></script>
+        </div>
     </div>
 </body>
+
 </html>

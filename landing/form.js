@@ -44,7 +44,7 @@ function clearFormFields() {
 function showGooseAnim() {
     const gusImage = document.createElement('img');
    
-    gusImage.setAttribute('src', './img/gus-anim.gif');
+    gusImage.setAttribute('src', './gus-anim.gif');
     gusImage.classList.add('gus-anim');
 
     form.appendChild(gusImage);
